@@ -1,0 +1,28 @@
+{
+  "name": "git-http",
+  "version": "0.1.0",
+  "description": "A git http platform implementation that sits on top of a tcp connection",
+  "main": "pure-http.js",
+  "dependencies": {
+    "http-codec": "~0.0.1",
+    "push-to-pull": "~0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/creationix/git-http.git"
+  },
+  "keywords": [
+    "http",
+    "tcp",
+    "codec"
+  ],
+  "author": "Tim Caswell <tim@creationix.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/creationix/git-http/issues"
+  }
+}
